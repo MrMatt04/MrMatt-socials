@@ -1,8 +1,32 @@
 {
-  "Profile-data": {
-  "name": "MrMatt",
-  "species": "oversized house cat",
-  "social-tag": "#MrMatt04",
-  "profilePicture": "/profile/profile-picture.png"
+  "profileData": {
+    "name": "MrMatt", 
+    "species": "oversized house cat",
+    "socialTag": "#MrMatt04",
+    "profilePicture": "/profile/profile-picture.png"
+  },
+  "Bio": {
+    "DoB": "17/04/2000",
+    "country": "Netherlands",
+    "Gender": "Male",
+    "pronouns": "he/him",
+    "orientation": "Pansexual",
+    "description": "Meowdy~! 🐈 My name is Matt, I love EDM and like to DJ sometimes. 🎶 Obsessed by theme parks and roller coasters. 🎢 I also like to workout 💪 and in my last bits of free time I’m either out with friends or playing video games! 🕹️"
+  },
+  "links": {
+    "discord-id": "276310359302864897",
+    "bluesky-username": "mrmatt04",
+    "telegram-id": "mrmatt04",
+    "instagram-username": "",
+    "twitter-username": "",
+    "tiktok-username": "",
+    "twitch-username": "",
+    "youtube-username": "",
+    "furafinity-username": ""
+  },
+  "Gallery": {
+    
   }
+
+
 }
