@@ -1,22 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import pfp from "./img/profile-picture.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={pfp} className="App-logo" alt="profile_picture" />
+        <h1>MrMatt</h1>
+        <h2>
+          the <b>oversized house cat</b>
+        </h2>
+        <sub>#MrMatt04</sub>
       </header>
     </div>
   );
