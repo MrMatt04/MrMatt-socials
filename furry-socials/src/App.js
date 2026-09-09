@@ -1,11 +1,14 @@
-import pfp from "./img/profile-picture.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={pfp} className="App-logo" alt="profile_picture" />
+        <img
+          src="./profile/Profile-picture.png"
+          className="Profile-picture"
+          alt=""
+        />
         <h1>MrMatt</h1>
         <h2>
           the <b>oversized house cat</b>
