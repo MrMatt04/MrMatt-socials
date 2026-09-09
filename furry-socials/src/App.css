@@ -11,6 +11,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  h1,
+  h2 {
+    margin: 0;
+  }
 }
 
 .Profile-picture {
@@ -50,5 +54,14 @@
   }
   .App-logo {
     border: 8px solid white;
+  }
+  .container {
+    h1,
+    h2 {
+      font-size: 60px;
+    }
+    sub {
+      font-size: 25px;
+    }
   }
 }
