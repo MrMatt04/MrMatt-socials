@@ -14,7 +14,11 @@ function App() {
   if (loading) return <div>Loading...</div>;
   if (error || !data) return <div>Error loading profile data</div>;
 
-  return <Profile profile={data.profileData} />;
+  return (
+    <main className="app-container">
+      <Profile profile={data.profileData} />
+    </main>
+  );
 }
 
 export default App;
