@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(to bottom, #2bc0e4, #eaecc6);
   color: black;
   font-family: "Arial", sans-serif;
   min-height: 100vh;
@@ -9,7 +8,7 @@
   margin: 0px;
 }
 
-.App-logo {
+.Profile-picture {
   height: 60vmin;
   pointer-events: none;
   border-radius: 200%;
