@@ -1,0 +1,42 @@
+.social-nav {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 80vw;
+}
+
+.social-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-nav li {
+  list-style: none;
+  display: inline-block;
+}
+.social-nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  background-color: transparent;
+}
+.social-nav img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.social-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
