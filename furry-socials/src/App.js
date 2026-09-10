@@ -5,6 +5,7 @@ import { useProfileData } from "./hooks/useProfileData";
 
 //component imports
 import Profile from "./components/profile/profile";
+import Nav from "./components/socialNav/nav";
 
 function App() {
   const { data, loading, error } = useProfileData(
@@ -17,6 +18,7 @@ function App() {
   return (
     <main className="app-container">
       <Profile profile={data.profileData} />
+      <Nav link={data.links} />
     </main>
   );
 }
