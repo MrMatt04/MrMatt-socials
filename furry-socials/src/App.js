@@ -7,10 +7,11 @@ import { useProfileData } from "./hooks/useProfileData";
 import Profile from "./components/profile/profile";
 import Nav from "./components/socialNav/nav";
 import Bio from "./components/bio/bio";
+import Gallery from "./components/gallery/gallery";
 
 function App() {
   const { data, loading, error } = useProfileData(
-    `${process.env.PUBLIC_URL}/profile.json`
+    `${process.env.PUBLIC_URL}/profile.json`,
   );
 
   if (loading) return <div>Loading...</div>;
@@ -21,6 +22,7 @@ function App() {
       <Profile profile={data.profileData} />
       <Nav link={data.links} />
       <Bio bio={data.Bio} />
+      <Gallery gallery={data.Gallery} />
     </main>
   );
 }

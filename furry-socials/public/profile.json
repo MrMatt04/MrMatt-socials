@@ -24,5 +24,17 @@
     "youtube-username": "mathieuvantuil8444",
     "furaffinity-username": "mrmatt04",
     "reddit-username": "eetjyugusyxt"
+  },
+  "Gallery": {
+    "images": [
+      "/gallery/image1.png",
+      "/gallery/image2.png",
+      "/gallery/image3.png"
+    ],
+    "description": [
+      "Image 1 description",
+      "Image 2 description",
+      "Image 3 description"
+    ]
   }
 }
