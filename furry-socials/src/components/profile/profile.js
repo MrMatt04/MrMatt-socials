@@ -2,7 +2,7 @@ function Profile({ profile }) {
   return (
     <div className="container">
       <img
-        src={profile.profilePicture}
+        src={`${process.env.PUBLIC_URL}${profile.profilePicture}`}
         alt={profile.name}
         className="Profile-picture"
       />
