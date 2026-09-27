@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/MrMatt-socials/static/css/main.bb15f4c2.css",
-    "main.js": "/MrMatt-socials/static/js/main.5291eb44.js",
+    "main.js": "/MrMatt-socials/static/js/main.15d61d6c.js",
     "static/js/453.6385a00e.chunk.js": "/MrMatt-socials/static/js/453.6385a00e.chunk.js",
     "static/media/image1.png": "/MrMatt-socials/static/media/image1.c621d513afbf8b80215b.png",
     "static/media/image2.png": "/MrMatt-socials/static/media/image2.8ffe9e964f732ff6f7d5.png",
     "static/media/MattCondom.png": "/MrMatt-socials/static/media/MattCondom.d96458ab3af58b42d46a.png",
     "index.html": "/MrMatt-socials/index.html",
     "main.bb15f4c2.css.map": "/MrMatt-socials/static/css/main.bb15f4c2.css.map",
-    "main.5291eb44.js.map": "/MrMatt-socials/static/js/main.5291eb44.js.map",
+    "main.15d61d6c.js.map": "/MrMatt-socials/static/js/main.15d61d6c.js.map",
     "453.6385a00e.chunk.js.map": "/MrMatt-socials/static/js/453.6385a00e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb15f4c2.css",
-    "static/js/main.5291eb44.js"
+    "static/js/main.15d61d6c.js"
   ]
 }
